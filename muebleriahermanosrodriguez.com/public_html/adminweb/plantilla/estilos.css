@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ margin:0px; 
+background: #c6c6c6; /* Old browsers */
+background: -moz-linear-gradient(top, #c6c6c6 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c6c6c6), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #c6c6c6 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #c6c6c6 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #c6c6c6 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom, #c6c6c6 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c6c6c6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */ background-repeat:no-repeat; 
+}
+/****************************************************** administrador *************************************************************************/
+#panel_admin_logo{ width:320px; height:auto; margin-left:auto; margin-right:auto; margin-top:40px; margin-bottom:20px; }
+#panel_admin_pass{ width:300px; height:auto;  background-color:#f7f7f7; padding:40px 10px 40px 10px; margin-left:auto; margin-right:auto; margin-top:50px; margin-bottom:30px; border:#fff solid 1px;
+   -webkit-box-shadow: 0px 1px 8px 0px #c2c2c2;
+    -moz-box-shadow: 0px 1px 8px 0px #c2c2c2;
+     box-shadow: 0px 1px 8px 0px #c2c2c2;
+}
+
+#principal{ width:950px; height:auto;  margin-left:auto; margin-right:auto;   }
+#cabezera{ width:930px; height:auto; float:left; padding:15px 10px 0px 10px; 
+background: #494949; /* Old browsers */
+background: -moz-linear-gradient(top, #494949 0%, #282828 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#494949), color-stop(100%,#282828)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #494949 0%,#282828 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #494949 0%,#282828 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #494949 0%,#282828 100%); /* IE10+ */
+background: linear-gradient(to bottom, #494949 0%,#282828 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#494949', endColorstr='#282828',GradientType=0 ); /* IE6-9 */
+}
+#logo{ width:300px; height:auto; float:left; background:#dfdfdf; border-top:#000 5px solid; border-left:#000 5px solid; border-right:#000 5px solid; padding:10px;}
+#cerrar{ width:300px; height:auto; float:right; }
+#menu{ width:930px; height:30px; float:left; padding:5px 10px 0px 10px; background:#000;}
+#contenido{ width:930px; height:auto; float:left; background:#FFF; padding:10px;}
+#submenu{ width:250px; height:auto; float:left; margin-right:10px;}
+#categoria_agregar{ width:230px; height:auto; float:left; background:#90bd2b; padding:10px;}
+#producto_agregar{ width:auto; height:auto; float:right; background:#90bd2b; padding:5px 10px 5px 10px;}
+#botones_submenu{ width:245px; height:auto; float:left; border-bottom:#CCC 1px solid; padding:10px 0px 10px 5px; background:#f1f1f1;}
+#botones_submenu_link{ width:190px; height:auto; float:left; margin-right:10px;}
+#botones_submenu_editar{ width:16px; height:auto; float:left; margin-right:10px;}
+#botones_submenu_eliminar{ width:16px; height:auto; float:left; }
+
+#contenido_inter{ width:670px; height:auto; float:left; }
+#contenido_inter_titulo{ width:100%; height:auto; float:left; border-bottom:#c9c9c9 1px solid; padding:10px 0px 10px 0px; margin-bottom:20px; background:#f1f1f1;}
+#contenido_inter_texto{ width:560px; height:auto; float:left; margin-left:10px;}
+#contenido_inter_anterior{ width:90px; height:auto; float:right; margin-right:10px;}
+
+
+#contenido_inter_cabezera{ width:650px; height:auto; float:left; background:#6a6a6a; padding:10px; border-bottom:#90bd2b 5px solid;}
+#contenido_inter_foto_cabezera{ width:150px; height:auto; float:left; margin-right:10px; }
+#contenido_inter_producto{ width:650px; height:auto; float:left; padding:10px 10px 10px 10px; border-bottom:#cacaca 1px solid; background:#ededed;}
+#contenido_inter_id{ width:17px; height:auto; float:left; margin-right:10px;}
+#contenido_inter_foto{ width:150px; height:auto; float:left; margin-right:10px; background:#FFF;}
+#contenido_inter_nombre{ width:200px; height:auto; float:left; margin-right:10px;}
+#contenido_inter_descripcion{ width:200px; height:150px; float:left; margin-right:10px; overflow:hidden;}
+
+#botones_menu{ width:auto; height:50px; float:left; margin-right:1px; padding:8px 15px 0px 15px; background:#90bd2b; border-radius: 5px 5px 0px 0px;}
+
+#contenido_inter_datos{ width:910px; height:auto; float:left; padding:10px 10px 10px 10px; background:#ededed; border-bottom:#cacaca 1px solid;}
+
+.casillas{ width:400px;  background:#fff;   height:auto; border:#b5b5b5 solid 1px; color:#000; padding:5px;}
+.casillas_admin{ width:270px;  background:#f4f4f4;   height:auto; border:#d3d3d3 solid 1px; color:#000; padding:10px 5px 10px 5px;}
+.boton { width:228px; height:auto;  padding:7px 10px 7px 10px; border:#00e100 solid 1px; background:#009900; border-radius:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none; 
+	letter-spacing: 1px; 
+}
+
+#pie{ width:950px; height:auto;  margin-left:auto; margin-right:auto; padding:40px 0px 40px 0px;}
+
+.Texto {
+	font-family: Arial, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+}
+.Texto_rojo {
+	font-family: Arial, "Times New Roman", Times, serif;
+	font-size: 15px;
+	color: #aa0000;
+	text-decoration: none;
+}
+.Titulo_negro{
+	font-family: Arial, "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.Texto_blanco{
+	font-family: Arial, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+

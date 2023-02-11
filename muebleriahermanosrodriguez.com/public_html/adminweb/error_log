@@ -1,0 +1,45 @@
+[10-Feb-2023 09:15:45 America/Mexico_City] PHP Warning:  require_once(../Connections/conexion.php): Failed to open stream: No such file or directory in /home3/muebleriahermano/public_html/adminweb/index.php on line 1
+[10-Feb-2023 09:15:45 America/Mexico_City] PHP Fatal error:  Uncaught Error: Failed opening required '../Connections/conexion.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home3/muebleriahermano/public_html/adminweb/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home3/muebleriahermano/public_html/adminweb/index.php on line 1
+[10-Feb-2023 09:15:52 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 09:16:05 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 09:16:07 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 09:16:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 09:16:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 09:16:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 09:16:26 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10
+[10-Feb-2023 12:21:23 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_pconnect() in /home3/muebleriahermano/public_html/connections/conexion.php:10
+Stack trace:
+#0 /home3/muebleriahermano/public_html/adminweb/administrador.php(1): require_once()
+#1 {main}
+  thrown in /home3/muebleriahermano/public_html/connections/conexion.php on line 10

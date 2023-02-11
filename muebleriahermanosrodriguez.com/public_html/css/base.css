@@ -1,0 +1,286 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,400&display=swap');*{
+	padding: 0;
+	margin: 0;
+}
+body{ 
+    background-color: #112754; 
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #000;
+    line-height: 30px;
+}
+/**********************************************/
+#pagina{ position:absolute;  z-index:10;   width:100%;}
+/**********************************************/
+nav{ right:0; width:180px; top:0;  z-index:0; position:absolute; position:fixed;}
+#boton{  cursor:pointer;}
+.menu_tablet_girar {
+  color: #fff;
+  text-decoration: none;
+  line-height: 50px;
+  margin-right:15px;
+} 
+/********************MENU IZQUIERDO REDES SOCIALES**************************/
+.barra_flotante{ 
+  width: 50%;
+  position: fixed; 
+  z-index: 20;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ico_llamar{ 
+  background:#01d59c; 
+  padding: 10px;
+}
+.ico_whatsapp{ 
+  background:#40e15d;  
+  padding: 10px;
+}
+.ico_facebook{ 
+  background:#3d548e;
+  padding: 10px;
+}
+.ico_mail{ 
+  background:#0f7dee;
+  padding: 10px;
+}
+.ico_ubicacion{ 
+  background:#f6f6f6; 
+  padding: 10px;
+}
+.ico_youtube{ 
+  background:#de1a2a; 
+  padding: 10px;
+}
+.ico_instagram{ 
+  background:#cb2a5f; 
+  padding: 10px;
+}
+/*******************DATOS TOP***************************/
+.datos{
+   background: #133476;
+}
+.plantilla_datos{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+	padding: 0.5% 0%;
+  color: #fff;
+}
+/*******************LOGO Y MENU***************************/
+.cabecera{
+   background: #fff;
+   position: relative;
+   position: sticky; top: 0; z-index:2;
+   border-bottom: #f3f3f3 1px solid;
+}
+.plantilla_cabecera{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+	padding: 0.5% 0%;
+	display: flex;
+	justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 30%;
+}
+.logo img{
+  width: 100%;
+}
+.boton_dis{
+  width: auto;
+  cursor: pointer;
+}
+.menu{
+    display: none;
+}
+/*******************BANNER***************************/
+.banner{
+  background: #fff;
+}
+/*******************CONTENIDO***************************/
+.contenido{
+   background: #fff;
+}
+.plantilla_contenido{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 4% 0%;
+}
+/*******************CONOCENOS***************************/
+.plantilla_conocenos{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 4% 0%;
+}
+/**********************************************/
+.pie{
+   background: #f3f3f3;
+}
+.plantilla_pie{
+	width: 90%;
+	margin: auto;
+  max-width: 1400px;
+	padding: 4% 0% 15% 0%;
+	display: grid;
+  grid-gap: 40px;
+}
+.plantilla_pie div{
+    width: 100%;
+}
+/*BOTON IMPULOS WEB PIE DE PAGINA*/
+.iconos_impulsoweb{ width:auto; height:auto; float:left; margin:27px 10px 0px 0px; }
+#impulsoweb {width:160px; height:85px; float:left; background:url('../imagenes/link.png') no-repeat;}
+#impulsoweb:hover {background:url('../imagenes/link_precionado.png') no-repeat;}
+/*******************************************************************************/
+/****************CATALOGO DE PRODUCTOS************************/
+.contPro{
+   background: #fff;
+}
+.contProInf{
+  width: 90%;
+  margin: auto;
+  padding: 4% 0%;
+}
+.subMenu{
+  width: 90%;
+ display: flex;
+ flex-flow: column wrap;
+ gap: 10px;
+ margin-bottom: 5%;
+}
+.subMenu a{
+  text-decoration: none;
+  color: #253774;
+  transition-duration: 2s;
+   padding-bottom: 2%;
+  border-bottom:#e1e1e1 1px solid;
+}
+.subMenu a:hover{
+    color: #7ddd36;
+}
+.catPro{
+width: 100%;
+}
+.catPro div{
+ margin-bottom: 5%;
+ padding-bottom: 5%;
+ border-bottom:#e1e1e1 1px solid;
+}
+/*media PC*/
+@media screen and (min-width: 1024px){
+/*******************************************************************************************************************/
+.barra_flotante{ 
+  width: 45px;
+  left:0%; 
+  bottom: 50%;
+  display: grid;
+}
+.ico_llamar{ 
+ display: none;
+}
+/**********************************************/
+.plantilla_cabecera .boton_dis{
+ display: none;
+}
+.plantilla_cabecera div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+  width: 20%;
+}
+.menu{
+  width: 40%;
+}
+.menu a{
+    text-decoration: none;
+    color: #003179;
+    transition-duration: 2s;
+}
+.menu a:hover{
+    color: #00dd00;
+}
+
+.menu a:hover, .menu .active a{
+color: #00dd00;
+} 
+/**********************************************/
+/*********************PIE*************************/
+.plantilla_pie{
+    grid-template-columns: 30% 35% 20% 15%;
+    padding-bottom: 4%;
+    grid-gap: 30px;
+}
+/****************CATALOGO DE PRODUCTOS************************/
+.contProInf{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.subMenu{
+ width: 90%;
+ display: flex;
+ flex-flow: column wrap;
+ gap: 10px;
+}
+.subMenu a{
+  text-decoration: none;
+  color: #253774;
+  transition-duration: 2s;
+   padding-bottom: 2%;
+	border-bottom:#e1e1e1 1px solid;
+}
+.subMenu a:hover{
+    color: #7ddd36;
+}
+.catPro{
+    display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.catPro div{
+ display: flex;
+ flex-flow: column wrap;
+ gap: 10px;
+ border:#dedede 1px solid;
+ padding: 5%;
+}
+.plantilla_conocenos{
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.plantilla_conocenos img{
+  width: 100%;
+  margin-bottom: 3%;
+}
+.plantilla_conocenos h1{
+color: #133476;
+}
+.detalles{
+    display: grid;
+	grid-template-columns: 30% 70%;
+    grid-gap: 50px;
+	border:#ebebeb 1px solid;
+	padding:2%;
+}
+/********/
+}
